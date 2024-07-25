@@ -1,10 +1,3 @@
-<?php
-include_once './function.php';
-
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +7,7 @@ include_once './function.php';
 </head>
 <body>
 <h1>Genera una password casuale</h1>
-    <form action="generate_password.php" method="get">
+    <form action="function.php" method="get">
         <label for="length">Lunghezza della password:</label>
         <input type="number" id="length" name="length" min="1" required>
         <button type="submit">Genera</button>
